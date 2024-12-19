@@ -55,7 +55,7 @@ namespace AI_Testing.Controllers
             try
             {
                 var ApiUrl = "https://api.hubapi.com/crm/v3/objects/contacts";
-                var AccessToken = "pat-na1-b5e3177d-e641-4b55-9468-39dfec1c3c62";
+                var AccessToken = "YOUR_NEW_HUBSPOT_API_KEY";
 
                 // Creating a new object to match HubSpot API payload structure
                 var lead = new
